@@ -1,36 +1,54 @@
-<h1>Hand Tracking Volume Control</h1>
+# Hand-Tracking-Volume-Control
 
-This project uses hand-tracking technology to control the volume of your computer. It is built using the MediaPipe library and Python.
-<h3>Requirements</h3>
+The Hand-Tracking-Volume-Control project is an innovative Python application that allows users to control the volume of their computer using hand gestures. Utilizing the power of the MediaPipe library, this project offers a unique way to interact with your device, making volume control more accessible and fun.
 
-Before using this project, you must have the following installed on your computer:
-<ul>
-    <li>Python 3.6 or above</li>
-    <li>OpenCV</li>
-    <li>Mediapipe</li>
-    <li>NumPy</li>
-    <li>pycaw</li>
-</ul>
-You can install the required packages by running the following command:
+## Features
 
-<code>pip install opencv-python mediapipe numpy pycaw</code>
+- **Hand Gesture Recognition**: Leverages the MediaPipe library for accurate hand tracking and gesture recognition.
+- **Volume Control**: Adjust the volume of your primary audio output device by simply moving your hand up or down.
+- **Real-Time Feedback**: Provides immediate response to hand movements, ensuring a seamless user experience.
 
-<h3>How to use</h3>
-<ol>
-    <li>Clone the repository or download the source code as a zip file and extract it.</li>
-    <li>Open a terminal or command prompt and navigate to the directory containing the source code.</li>
-    <li>Run the following command to start the program:</li>
-    <code>python Hand-Tracking-Volume-Control.py</code>
-    <li>Place your hand in front of the camera and move it up or down to control the volume.</li>
-</ol>
-<h3>Notes</h3>
-<ul>
-    <li>The program is set up to work with the primary audio output device on your computer. If you have multiple output devices, you may need to modify the code to select the correct device.</li>
-    <li>The hand-tracking technology used in this project relies on the camera feed to identify the location of the hand. Therefore, it may not work well in low-light conditions or if the hand is partially obstructed.</li>
-</ul>
-<h3>Contributing</h3>
+## Prerequisites
 
-Contributions to this project are welcome. If you find a bug or have an idea for an improvement, please submit an issue or pull request.
-<h3>License</h3>
+Before you begin, ensure you have met the following requirements:
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+- Python 3.6 or above installed on your computer.
+- A webcam or any compatible camera module for hand tracking.
+
+## Installation
+
+To install Hand-Tracking-Volume-Control, follow these steps:
+
+1. Clone the repository or download the source code:
+   git clone https://github.com/xn-coder/Hand-Tracking-Volume-Control.git
+2. Navigate to the project directory:
+   cd Hand-Tracking-Volume-Control
+3. Install the required dependencies:
+   pip install -r requirements.txt
+
+## Usage
+
+To use Hand-Tracking-Volume-Control, follow these steps:
+
+1. Run the application:
+   python AIVolume.py
+2. Place your hand in front of the camera. The application will track your hand's position and adjust the volume accordingly:
+   - Move your hand up to increase the volume.
+   - Move your hand down to decrease the volume.
+
+## Contributing
+
+Contributions to the Hand-Tracking-Volume-Control project are welcome. If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+
+Don't forget to give the project a star! Thanks again!
+
+## Acknowledgments
+
+- This project is built using the [MediaPipe](https://google.github.io/mediapipe/) framework for hand tracking and pose estimation.
+- Special thanks to the [pycaw](https://github.com/AndreMiras/pycaw) library for controlling the system volume.
+
+## About
+
+The Hand-Tracking-Volume-Control project is developed and maintained by [@xn-coder](https://github.com/xn-coder). It's an open-source initiative designed to explore and demonstrate the capabilities of hand tracking technology for practical applications.
+
+For more information, please visit the [project repository](https://github.com/xn-coder/Hand-Tracking-Volume-Control).
